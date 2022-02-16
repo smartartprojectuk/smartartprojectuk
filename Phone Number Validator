@@ -1,0 +1,7 @@
+import re
+
+number = input()
+if re.search("([189])[\d]+", number) and len(number) == 8:
+    print("Valid")
+else:
+    print("Invalid")
